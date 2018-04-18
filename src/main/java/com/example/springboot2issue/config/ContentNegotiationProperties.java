@@ -2,9 +2,9 @@ package com.example.springboot2issue.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
-
-@Configuration
-@ConfigurationProperties(prefix="test.web.mvc.content.negotiation")
+//
+//@Configuration
+//@ConfigurationProperties(prefix="test.web.mvc.content.negotiation")
 public class ContentNegotiationProperties {
 
     private boolean favorPathExtension = true;
